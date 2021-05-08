@@ -18,7 +18,7 @@ $.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=", function(data) {
             {name: "CONTINENT", value: data.continent},
           ],
           footer: {
-              text: "By KazUpTV | basedbot.cf"
+              text: "By KazUpTV | https://basedbot.cf"
           }
       }]
   };
